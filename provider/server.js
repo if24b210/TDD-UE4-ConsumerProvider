@@ -14,13 +14,15 @@ app.get("/spielplaetze", (req, res) => {
             geometry_name: "SHAPE",
             properties: {
                 // Bug #2
-                OBJECTID: "2225591",
+                // OBJECTID: "2225591",
+                OBJECTID: 2225591,
                 ANL_NAME: "Rudolf-Sallinger-Park",
                 BEZIRK: 5,
                 // Bug #1
                 //BEZIRK: 5,
                 SPIELPLATZ_DETAIL: "Fußball, Klettern, Rutschen, ...",
-                TYP_DETAIL: "Ballspielkäfig, Spielplatz",
+                // Bug #3
+                //TYP_DETAIL: "Ballspielkäfig, Spielplatz",
                 SE_ANNO_CAD_DATA: null,
             },
         },
