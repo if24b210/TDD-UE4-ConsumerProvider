@@ -1,0 +1,100 @@
+{
+  "consumer": {
+    "name": "PlaygroundConsumer"
+  },
+  "interactions": [
+    {
+      "description": "eine Anfrage für alle Spielplätze",
+      "providerState": "Spielplatzdaten sind vorhanden",
+      "request": {
+        "method": "GET",
+        "path": "/spielplaetze"
+      },
+      "response": {
+        "body": [
+          {
+            "geometry": {
+              "coordinates": [
+                16.36248055,
+                48.18779685
+              ],
+              "type": "Point"
+            },
+            "geometry_name": "SHAPE",
+            "id": "SPIELPLATZPUNKTOGD.2225591",
+            "properties": {
+              "ANL_NAME": "Rudolf-Sallinger-Park",
+              "BEZIRK": 5,
+              "OBJECTID": 2225591,
+              "SE_ANNO_CAD_DATA": null,
+              "SPIELPLATZ_DETAIL": "Fußball, Klettern, Rutschen, ...",
+              "TYP_DETAIL": "Ballspielkäfig, Spielplatz"
+            },
+            "type": "Feature"
+          }
+        ],
+        "headers": {
+          "Content-Type": "application/json; charset=utf-8"
+        },
+        "matchingRules": {
+          "$.body": {
+            "match": "type",
+            "min": 1
+          },
+          "$.body[*].geometry": {
+            "match": "type"
+          },
+          "$.body[*].geometry.coordinates": {
+            "match": "type"
+          },
+          "$.body[*].geometry.type": {
+            "match": "type"
+          },
+          "$.body[*].geometry_name": {
+            "match": "type"
+          },
+          "$.body[*].id": {
+            "match": "type"
+          },
+          "$.body[*].properties": {
+            "match": "type"
+          },
+          "$.body[*].properties.ANL_NAME": {
+            "match": "type"
+          },
+          "$.body[*].properties.BEZIRK": {
+            "match": "type"
+          },
+          "$.body[*].properties.OBJECTID": {
+            "match": "type"
+          },
+          "$.body[*].properties.SPIELPLATZ_DETAIL": {
+            "match": "type"
+          },
+          "$.body[*].properties.TYP_DETAIL": {
+            "match": "type"
+          },
+          "$.body[*].type": {
+            "match": "type"
+          }
+        },
+        "status": 200
+      }
+    }
+  ],
+  "metadata": {
+    "pact-js": {
+      "version": "15.0.1"
+    },
+    "pactRust": {
+      "ffi": "0.4.22",
+      "models": "1.2.3"
+    },
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  },
+  "provider": {
+    "name": "PlaygroundProvider"
+  }
+}
