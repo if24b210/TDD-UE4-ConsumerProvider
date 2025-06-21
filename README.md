@@ -1,78 +1,127 @@
-## 🌿 **GreenScape Navi** – ITP Project, Austria in Collaboration with Thailand
+# ✅ Consumer Driven Contract Testing – TDD-UE04-V2
 
-# Welcome to **GreenScape**
-
-GreenScape is a **Trip Planner** designed for public green areas in **Vienna**.  
-The application helps users find parks and playgrounds — tailored to their personal needs.
-
----
-## **Project links – GreenScape**
-
-**Documentation**<br>
-Core Features, User Benefits, eg. can be found here:
- [./Documentation/GreenSpace-Doku-ITP-gruppe05.pdf](Documentation/GreenSpace-Doku-ITP-gruppe05.pdf)
-
-**GitHub Repository** :
-<br> [GreenSpace auf GitHub](https://github.com/if24b210/GreenSpace)
-
-**Jira Board**: <br>  [Jira – GREEN Projektboard](https://technikum-wien-team-itp.atlassian.net/jira/software/projects/GREEN/boards/2)
-
-**Figma Design**: <br>
-[Figma-Datei – Green Space Navi](https://www.figma.com/design/5J2DRcw8I5OglLCPzh9rQf/Green-Space-Navi?node-id=88-255&t=4WHjiTCQdF951mDK-1)
-
-
- **Microsoft Teams**: <br>
- [Teams-Kanal öffnen](https://teams.microsoft.com/l/team/19%3Adr2pynbv61ECj96W4ZK5zSTifeXE4JZN3jpPXCbS_VU1%40thread.tacv2/conversations?groupId=00f18cf0-fcc6-4bbb-90d6-253dfdaf39fa&tenantId=084fcc17-2a37-4c44-968f-5b2d634b2b6f)
-
+Dies ist die Lösung zur Übung **UE04 – Consumer Driven Contract Testing (CDCT)**  
+im Fach **Test Driven Development (TDD)** an der **FH Technikum Wien**, SS 2025.
 
 ---
 
-## 🚀 **Getting Started**
+## 🌐 Projektbasis – GreenScape Navi (ITP Projekt)
 
-### 1. Clone the Repository
+Als Grundlage wurde ein Teil des bestehenden **GreenScape Projekts** verwendet, das öffentliche Grünflächen in Wien visualisiert.
+
+Für diesen Test wurde ein **künstlicher Consumer & Provider** entwickelt, die mit JSON-Daten der Stadt Wien arbeiten (offenes GeoJSON unter [data.wien.gv.at](https://www.data.gv.at)).
+
+Verwendet wird das Framework [Pact (pact.io)](https://pact.io/) für **Consumer**- und **Provider-Tests**.
+
+---
+
+## 📁 Projektstruktur
+
+```
+TDD-UE04-V2/
+├── ...
+├── consumer/
+│   ├── getPlaygrounds.pact.test.js     // Consumer Test
+│   └── pact/pacts/                     // Generierte Pact-Files (.json)
+│
+├── provider/
+│   ├── validatePlaygrounds.pact.test.js // Provider Verification
+│   └── server.js                         // Dummy-Provider (Express)
+│
+├── .git/                // Git-Verzeichnis mit Red-Green Commits
+├── README.md            // Diese Datei
+└── package.json         // Installierte Abhängigkeiten
+```
+
+---
+
+## ⚙️ Voraussetzungen
+
+- **Node.js** Version: `v20.14.0`
+- **Pact Versionen:**
+  - `@pact-foundation/pact`: `15.0.1`
+  - `@pact-foundation/pact-node`: `10.14.0`
+  - `pact-core`: `16.0.0`
+
+> Die Versionen sind bereits in der `package-lock.json` festgelegt.  
+> Bei Ausführung mit `npm ci` werden exakt diese installiert.
+
+---
+
+## 🧪 Test-Anleitung
+
+### 1. Installiere Abhängigkeiten
+
 ```bash
-git clone https://github.com/if24b210/GreenSpace.git
-cd GreenSpace-main
+npm ci
 ```
 
-### 2. Replace API Key for 
-on: https://openrouteservice.org/  get an API Key
-int this project structure go to:  assets/js/routing.js
-fill in your API key into the variable: ORS_API_KEY
+### 2. Führe Consumer-Test aus
 
+```bash
+node consumer/getPlaygrounds.pact.test.js
+```
 
-### 3. Open the Application
-- Open the Application with a localhost server. For example xampp.
-- Make sure JavaScript is enabled in your browser.
-<br>
-<br>
+Dieser Test generiert eine Datei:
 
 ```
-Note
-Although we are using client-side JavaScript, we are also using fetch() to dynamically load external HTML files like the navbar and footer.
-
-Most browsers block fetch() (and other AJAX requests) when accessing local files via the file:// protocol due to security restrictions (Same-Origin Policy).
-
-Therefore, the website must be opened through a local server (e.g., localhost) for these requests to work properly.
+consumer/pact/pacts/PlaygroundConsumer-PlaygroundProvider.json
 ```
----
 
-## 📄 **License**
-This project is developed for academic purposes (FH Technikum Wien).  
-Further distribution or commercial use is subject to agreement.
+### 3. Starte den Provider (Mockserver)
 
----
+```bash
+node provider/server.js
+```
 
-## 👩‍💻 **Authors**
-- **Neda** (Project Lead)  
-- **Lena**  
-- **Jana**
-- **William**
-- **Beem**
-- **Jai**
-- **Liam / Tanja**
+> Achtung: Der Port 1235 darf nicht belegt sein.
+
+### 4. Führe Provider-Verifikation aus (in neuem Terminal)
+
+```bash
+node provider/validatePlaygrounds.pact.test.js
+```
+
+Erwartete Ausgabe: `Verification successful`
 
 ---
 
-## 👩‍💻 **Lecturer**
-- **Rohatsch** (Lecturer)
+## 🐞 Bekannter Bug: Pact-Logfiles werden nicht erstellt
+
+> Aufgrund eines Bugs in der aktuellen Version von Pact werden **keine Log-Dateien (.log / .json)** automatisch erstellt.
+
+Dies betrifft:
+- `pact.log`
+- `mockserver-integration.json`
+
+**Konsequenz:**  
+Es ist **kein Fehler deinerseits** und muss daher **nicht im ZIP enthalten sein**.  
+Als Nachweis gilt die erfolgreiche Konsolen-Ausgabe + Screenshot.
+
+---
+
+## ✅ Testlauf erfolgreich
+
+Nach der Implementierung des Providers und dem Einbau der 3 Bugs konnte die Konsumenten- und Providerverifikation erfolgreich durchgeführt werden.
+
+![Bugfix Screenshot – PlaygroundProvider Response](screenshots/green-gefixed.jpg)
+
+Die Response-Struktur entspricht der realistischen GeoJSON-Datenstruktur der Stadt Wien.
+
+
+
+## 💡 Hinweise für Vortragenden / Tester
+
+- Zum Testen bitte wie oben beschrieben vorgehen.
+- Keine globalen Pakete notwendig, `npm ci` reicht.
+- Pact-Files werden lokal erzeugt, keine Internetverbindung nötig.
+- Screenshots der erfolgreichen Tests sind im ZIP enthalten.
+- Git-Commits folgen dem Red-Green-Schema (2 Commits pro Testfall).
+
+---
+
+## ✍️ Autor
+
+- **Neda [if24b210]**
+- Studiengang: Informatik, SS 2025
+- FH Technikum Wien
