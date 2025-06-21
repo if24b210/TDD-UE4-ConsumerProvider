@@ -23,6 +23,7 @@ app.get("/spielplaetze", (req, res) => {
                 SPIELPLATZ_DETAIL: "Fußball, Klettern, Rutschen, ...",
                 // Bug #3
                 //TYP_DETAIL: "Ballspielkäfig, Spielplatz",
+                TYP_DETAIL: "Ballspielkäfig, Spielplatz",
                 SE_ANNO_CAD_DATA: null,
             },
         },
