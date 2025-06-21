@@ -1,0 +1,15 @@
+{
+  "name": "tdd-ue04-v2",
+  "version": "1.0.0",
+  "description": "GreenScape is a **Trip Planner** designed for public green areas in **Vienna**.  \r The application helps users find parks and playgrounds — tailored to their personal needs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pact-foundation/pact": "^15.0.1"
+  }
+}
