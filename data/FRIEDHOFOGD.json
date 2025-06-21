@@ -1,0 +1,1345 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879525",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.43817634,
+                    48.14136855
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Zentralfriedhof Tor 9",
+                "ADRESSE": "11., Mylius-Bluntschli-Straße",
+                "WEBLINK1": "http://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879525,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879526",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.34628973,
+                    48.27113551
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Pfarrfriedhof Kahlenbergerdorf",
+                "ADRESSE": "19., Eisernenhandgasse",
+                "WEBLINK1": "http://www.kahlenbergerdorf.at/Pfarre.htm",
+                "SE_SDO_ROWID": 4879526,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879527",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.50237251,
+                    48.15952035
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof der Namenlosen",
+                "ADRESSE": "11., Alberner Hafen",
+                "WEBLINK1": "https://www.wien.gv.at/kultur/religion/friedhof-der-namenlosen.html",
+                "SE_SDO_ROWID": 4879527,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879161",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.30020792,
+                    48.24792612
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Neustift",
+                "ADRESSE": "18., Pötzleinsdorfer Höhe 2",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879161,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879162",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.33318847,
+                    48.27382072
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Kahlenberg (Josefsdorf)",
+                "ADRESSE": "19., Kahlenberger Straße",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879162,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879163",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.34630816,
+                    48.26025747
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Heiligenstadt",
+                "ADRESSE": "19., Wildgrubgasse 20",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879163,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879164",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.44801701,
+                    48.15232589
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Zentralfriedhof Tor 3",
+                "ADRESSE": "11., Simmeringer Hauptstraße 240",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879164,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879165",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.4696986,
+                    48.23592079
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Hirschstetten",
+                "ADRESSE": "22., Quadenstraße 11",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879165,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879166",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.44173373,
+                    48.15406583
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Zentralfriedhof Tor 2",
+                "ADRESSE": "11., Simmeringer Hauptstraße 234",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879166,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879167",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3629679,
+                    48.22366877
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Jüdischer Friedhof Seegasse",
+                "ADRESSE": "9., Seegasse 9",
+                "WEBLINK1": "https://www.ikg-wien.at/rabbinat/friedh%C3%B6fe",
+                "SE_SDO_ROWID": 4879167,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879168",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.45213375,
+                    48.158466
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Kaiserebersdorf",
+                "ADRESSE": "11., Thürnlhofstraße 27",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879168,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879169",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.35135237,
+                    48.23238472
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Israelischer Friedhof Währing",
+                "ADRESSE": "18., Semperstraße 64",
+                "WEBLINK1": "https://www.ikg-wien.at/rabbinat/friedh%C3%B6fe",
+                "SE_SDO_ROWID": 4879169,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879170",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.25663522,
+                    48.13997257
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Kalksburg",
+                "ADRESSE": "23., Zemlinskygasse 26",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879170,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879171",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.43701554,
+                    48.29503477
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Stammersdorf-Zentral",
+                "ADRESSE": "21., Stammersdorfer Straße 244-260",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879171,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879172",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.44095643,
+                    48.15740304
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Urnenhain der Feuerhalle Simmering",
+                "ADRESSE": "11., Simmeringer Hauptstraße 33",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879172,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879173",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.33813977,
+                    48.17351004
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Meidling",
+                "ADRESSE": "12., Haidackergasse 6",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879173,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879174",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.2999041,
+                    48.16176136
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Südwest",
+                "ADRESSE": "12., Hervicusgasse 44",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879174,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879175",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.33582616,
+                    48.25439713
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Grinzing",
+                "ADRESSE": "19., An den langen Lüssen 33",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879175,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879176",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.45003625,
+                    48.25373414
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Kagran",
+                "ADRESSE": "22., Goldemundweg 11",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879176,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879177",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.30156827,
+                    48.1956201
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Pfarrfriedhof Penzing",
+                "ADRESSE": "14., Einwanggasse 55",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879177,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4876394",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.43371213,
+                    48.1584896
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Zentralfriedhof Tor 1",
+                "ADRESSE": "11., Simmeringer Hauptstraße 230B",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4876394,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4876395",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.23388942,
+                    48.20780585
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Hadersdorf-Weidlingau",
+                "ADRESSE": "14., Friedhofstraße 12",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4876395,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4876396",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.34897592,
+                    48.14533463
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Inzersdorf",
+                "ADRESSE": "23., Kolbegasse 34",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4876396,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4876397",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.44909346,
+                    48.15033355
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Evangelischer Pfarrfriedhof Simmering",
+                "ADRESSE": "11., Simmeringer Hauptstraße 242",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4876397,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4876398",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.40567869,
+                    48.13932565
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Oberlaa",
+                "ADRESSE": "10., Friedhofstraße 33",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4876398,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4876399",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.24606851,
+                    48.2054152
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Hütteldorf",
+                "ADRESSE": "14., Samptwandnergasse 6",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4876399,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4876400",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.26973014,
+                    48.13417984
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Rodaun",
+                "ADRESSE": "23., Leinmüllergasse 1",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4876400,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4876401",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.31425186,
+                    48.14130754
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Erlaa",
+                "ADRESSE": "23., Erlaaer Straße 82-90",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4876401,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4876402",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.30503166,
+                    48.16997773
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Hetzendorf",
+                "ADRESSE": "12., Elisabethallee 2",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4876402,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4876403",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.35807885,
+                    48.26096322
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Pfarrfriedhof Nußdorf",
+                "ADRESSE": "19., Nußberggasse",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4876403,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4876404",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.32059166,
+                    48.24855992
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Sievering",
+                "ADRESSE": "19., Nottebohmstraße 51",
+                "WEBLINK1": "http://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4876404,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4876405",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.42806368,
+                    48.15195967
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Zentralfriedhof Tor 11",
+                "ADRESSE": "11., Mylius-Bluntschli-Straße 111",
+                "WEBLINK1": "http://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4876405,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4876406",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.47931775,
+                    48.21581356
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Aspern",
+                "ADRESSE": "22., Langobardenstraße 180",
+                "WEBLINK1": "http://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4876406,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4876407",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.45212188,
+                    48.14867684
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Zentralfriedhof Neuer Israelitischer Friedhof",
+                "ADRESSE": "11., Simmeringer Hauptstraße 244",
+                "WEBLINK1": "http://www.ikg-wien.at/",
+                "SE_SDO_ROWID": 4876407,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4876408",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.49299223,
+                    48.25225282
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Breitenlee",
+                "ADRESSE": "22., Breitenleer Straße 231",
+                "WEBLINK1": "http://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4876408,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879178",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.53257756,
+                    48.21582047
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Eßling",
+                "ADRESSE": "22., Gartenheimstraße 34A",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879178,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879179",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.2937628,
+                    48.13177074
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Liesing",
+                "ADRESSE": "23., Siebenhirtenstraße 16",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879179,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879180",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.41192781,
+                    48.30487157
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Stammersdorf-Ort",
+                "ADRESSE": "21., Liebleitnergasse 6",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879180,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879181",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.4528307,
+                    48.15118723
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Zentralfriedhof Tor 4",
+                "ADRESSE": "11., Simmeringer Hauptstraße 246",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879181,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879184",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.43151223,
+                    48.15670539
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Zentralfriedhof Israelitische Abteilung",
+                "ADRESSE": "11., Simmeringer Hauptstraße 230B",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879184,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879185",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.45642317,
+                    48.2204989
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Stadlau",
+                "ADRESSE": "22., Gemeindeaugasse 27",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879185,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879186",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.32862159,
+                    48.2385753
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Döbling",
+                "ADRESSE": "19., Hartäckerstraße 65",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879186,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879187",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.30052939,
+                    48.14216235
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Atzgersdorf",
+                "ADRESSE": "23., Reklewskigasse 25",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879187,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879188",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.42333638,
+                    48.17111089
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Simmering",
+                "ADRESSE": "11., Unter der Kirche 5",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879188,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879189",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.40690256,
+                    48.28383798
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Groß-Jedlersdorf",
+                "ADRESSE": "21., Strebersdorfer Straße 4",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879189,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879190",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.41671335,
+                    48.2701063
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Israelitischer Friedhof Floridsdorf",
+                "ADRESSE": "21., Ruthnergasse 26",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879190,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879191",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.28231233,
+                    48.20247982
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Baumgarten",
+                "ADRESSE": "14., Waidhausenstraße 52",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879191,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879192",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.50121972,
+                    48.2762319
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Süßenbrunn",
+                "ADRESSE": "22., Friedhofweg",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879192,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879193",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.36023582,
+                    48.178484
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Evangelischer Friedhof Matzleinsdorf",
+                "ADRESSE": "10., Triester Straße 1",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879193,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879194",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.26171576,
+                    48.17826862
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Ober St. Veit",
+                "ADRESSE": "13., Gemeindeberggasse 26",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879194,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879195",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.38242351,
+                    48.27309889
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Jedlesee",
+                "ADRESSE": "21., Audorfgasse 47",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879195,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879196",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.36545584,
+                    48.14469596
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Islamischer Friedhof",
+                "ADRESSE": "23., Großmarktstraße 2A",
+                "WEBLINK1": "https://de.wikipedia.org/wiki/Islamischer_Friedhof_Wien",
+                "SE_SDO_ROWID": 4879196,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879182",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.44122463,
+                    48.26269301
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Leopoldau",
+                "ADRESSE": "21., Leopoldauer Platz 77",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879182,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879183",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.44256056,
+                    48.15302104
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Zentralfriedhof Halle 1",
+                "ADRESSE": "11., Simmeringer Hauptstraße 234",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879183,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879197",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.44019238,
+                    48.15418712
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Zentralfriedhof Halle 2",
+                "ADRESSE": "11., Simmeringer Hauptstraße 234",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879197,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879198",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.31197735,
+                    48.12646159
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Siebenhirten",
+                "ADRESSE": "23., Pollakgasse 3",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879198,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879199",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.31170608,
+                    48.2279785
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Dornbach",
+                "ADRESSE": "17., Alszeile 28",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879199,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879201",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.43871955,
+                    48.15126365
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Zentralfriedhof Ehrengräber",
+                "ADRESSE": "11., Simmeringer Hauptstraße 234",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879201,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879202",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.27464376,
+                    48.15374997
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Mauer",
+                "ADRESSE": "23., Friedensstraße 6-16",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879202,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879203",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.29972032,
+                    48.17626577
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Hietzing",
+                "ADRESSE": "13., Maxingstraße 15",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879203,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879204",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.39324275,
+                    48.29960644
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Strebersdorf",
+                "ADRESSE": "21., Anton-Haberzeth-Gasse 6",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879204,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879205",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.44238992,
+                    48.14549841
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Zentralfriedhof Halle 3",
+                "ADRESSE": "11., Simmeringer Hauptstraße 234",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879205,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879206",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.44133578,
+                    48.15834429
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Feuerhalle Simmering",
+                "ADRESSE": "11., Simmeringer Hauptstraße 337",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879206,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879207",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.29243407,
+                    48.17688485
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Lainz",
+                "ADRESSE": "13., Würzburggasse 28",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879207,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879208",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.4384662,
+                    48.15105433
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Zentralfriedhof",
+                "ADRESSE": "11., Simmeringer Hauptstraße 234",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879208,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879209",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3176373,
+                    48.2305985
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Gersthof",
+                "ADRESSE": "18., Möhnergasse 1",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879209,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879210",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3088492,
+                    48.24413601
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Pötzleinsdorf",
+                "ADRESSE": "18., Starkfriedgasse 67",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879210,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879211",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.32706672,
+                    48.16533917
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Altmannsdorf",
+                "ADRESSE": "12., Stüber-Gunther-Gasse 1",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879211,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879212",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.2967508,
+                    48.2135148
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Ottakring",
+                "ADRESSE": "16., Gallitzinstraße 5",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879212,
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "FRIEDHOFOGD.4879200",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.31716624,
+                    48.22681968
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "NAME": "Friedhof Hernals",
+                "ADRESSE": "17., Leopold-Kunschak-Platz 7",
+                "WEBLINK1": "https://www.friedhoefewien.at/",
+                "SE_SDO_ROWID": 4879200,
+                "SE_ANNO_CAD_DATA": null
+            }
+        }
+    ],
+    "totalFeatures": 70,
+    "numberMatched": 70,
+    "numberReturned": 70,
+    "timeStamp": "2025-05-05T04:43:07.829Z",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+        }
+    }
+}

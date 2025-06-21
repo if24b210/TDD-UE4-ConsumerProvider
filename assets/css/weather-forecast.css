@@ -1,0 +1,174 @@
+:root {
+    --primary-green: #157347;
+    --card-bg: #ffffff;
+}
+
+
+
+.forecast-card {
+    height: 100%;
+    margin: auto;
+
+}
+
+.card-header {
+    background-color: var(--primary-green);
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.days-row {
+    display: flex;
+    justify-content: column;
+    overflow-x: auto;
+}
+
+.day-column {
+    flex: 1;
+    border-right: 1px solid #eee;
+    transition: background-color 0.2s ease;
+
+
+}
+
+.day-column:last-child {
+    border-right: none;
+}
+
+.day-column:hover {
+    background: #d1e7db;
+}
+
+.day-header {
+    background-color: var(--primary-green);
+    color: #fff;
+    padding: 0.25rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.time-slot {
+    padding: 0.25rem;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    font-size: 0.75rem;
+    background: rgba(21, 115, 71, 0.021);
+}
+
+.time-slot:last-child {
+    border-bottom: none;
+}
+
+.temperature {
+    font-weight: 500;
+    margin: 0.15rem 0;
+}
+
+.time-label {
+    color: #888;
+}
+=======
+        :root {
+            --primary-green:  #157347;
+            --card-bg: #ffffff;
+        }
+
+
+
+        .forecast-card {            
+            height: 100%;
+            margin: auto;
+            
+        }
+
+        .card-header {
+            background-color: var(--primary-green);
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            padding: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .days-row {
+            display: flex;
+            justify-content: column;
+           overflow-x: auto;
+        }
+
+        .day-column {
+            flex: 1;
+            border-right: 1px solid #eee;
+            transition: background-color 0.2s ease;
+            
+        }
+
+        .day-column:last-child {
+            border-right: none;
+        }
+
+        .day-column:hover {
+            background: #d1e7db;
+        }
+
+        .day-header {
+            background-color: var(--primary-green);
+            color: #fff;
+            padding: 0.25rem;
+            text-align: center;
+            font-weight: bold;
+            font-size: 0.8rem;
+        }
+
+        .time-slot {
+            padding: 0.25rem;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+            font-size: 0.75rem;
+            background: rgba(21, 115, 71, 0.021);
+        }
+
+        .time-slot:last-child {
+            border-bottom: none;
+        }
+
+        .weather-icon {
+            font-size: 1rem;
+            margin-bottom: 0.15rem;
+        }
+
+        .temperature {
+            font-weight: 500;
+            margin: 0.15rem 0;
+        }
+
+        .time-label {
+            color: #888;
+        }
+
+
+.weather-icon {
+    font-size: 1rem;
+    margin-bottom: 0.15rem;
+    width: 3em;
+    height: 3em;
+    object-fit: contain;
+    display: inline-block;
+    max-width: 100%;
+    max-height: 3.5em;
+    box-sizing: border-box;
+    overflow: hidden;
+    filter: drop-shadow(0 0 2px #555555ad);
+}
+
+
+@media (max-width: 599px) {
+    .days-row {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}

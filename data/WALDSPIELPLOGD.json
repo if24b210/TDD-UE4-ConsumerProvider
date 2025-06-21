@@ -1,0 +1,1135 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.48",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.24413109,
+                    48.15124563
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 48,
+                "STANDORT": "Schießstätte",
+                "BEZ": "23",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/liesing.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.49",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.34543598,
+                    48.13920705
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 49,
+                "STANDORT": "Draschegründe",
+                "BEZ": "23",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/liesing.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.50",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3626197,
+                    48.32105024
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 50,
+                "STANDORT": "Bisamberg - Elisabethhöhe",
+                "BEZ": "NÖ",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/bisamberg.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.51",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.51641969,
+                    48.2019324
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 51,
+                "STANDORT": "Esslinger Furt - Reinholdgasse",
+                "BEZ": "22",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/donaustadt.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.52",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.26936727,
+                    48.17320714
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 52,
+                "STANDORT": "Hörndlwald",
+                "BEZ": "13",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/hietzing.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.53",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.43556601,
+                    48.27398767
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 53,
+                "STANDORT": "Jugendspielplatz Leopoldau",
+                "BEZ": "21",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/floridsdorf.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.54",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.49355081,
+                    48.25419059
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 54,
+                "STANDORT": "Rautenweg",
+                "BEZ": "22",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/donaustadt.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.1",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.40097577,
+                    48.16732402
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 1,
+                "STANDORT": "Böhmischer Prater - Donabaumgasse",
+                "BEZ": "10",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/favoriten.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.2",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.40025363,
+                    48.16500074
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 2,
+                "STANDORT": "Böhmischer Prater - Festwiese",
+                "BEZ": "10",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/favoriten.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.3",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.39902666,
+                    48.1630741
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 3,
+                "STANDORT": "Böhmischer Prater - Verbindungsweg Vogental",
+                "BEZ": "10",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/favoriten.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.4",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.39693133,
+                    48.1599895
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 4,
+                "STANDORT": "Laaer Wald",
+                "BEZ": "10",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/favoriten.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.5",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.35943744,
+                    48.15921903
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 5,
+                "STANDORT": "Wienerberg - Neilreichgasse",
+                "BEZ": "10",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/favoriten.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.6",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.34957379,
+                    48.15854122
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 6,
+                "STANDORT": "Wienerberg - Chadim",
+                "BEZ": "10",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/favoriten.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.7",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.34884452,
+                    48.15722828
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 7,
+                "STANDORT": "Wienerberg - Chadim",
+                "BEZ": "10",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/favoriten.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.8",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.34762761,
+                    48.15814937
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 8,
+                "STANDORT": "Wienerberg - Chadim",
+                "BEZ": "10",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/favoriten.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.9",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.33881455,
+                    48.16667496
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 9,
+                "STANDORT": "Wienerberg West - Rotdornallee",
+                "BEZ": "10",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/favoriten.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.10",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.44855851,
+                    48.15768351
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 10,
+                "STANDORT": "Meidlgasse",
+                "BEZ": "11",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/simmering.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.11",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.45623864,
+                    48.15189797
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 11,
+                "STANDORT": "Leberweg",
+                "BEZ": "11",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/simmering.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.12",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.25460704,
+                    48.16669066
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 12,
+                "STANDORT": "Lainzer Tor",
+                "BEZ": "13",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/lainz.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.13",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.22153301,
+                    48.15396495
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 13,
+                "STANDORT": "Gütenbachtor",
+                "BEZ": "13",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/lainz.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.14",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.20273656,
+                    48.17141145
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 14,
+                "STANDORT": "Hirschgstemm",
+                "BEZ": "13",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/lainz.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.15",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.23202563,
+                    48.17907575
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 15,
+                "STANDORT": "Rohrhaus",
+                "BEZ": "13",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/lainz.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.16",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.25290608,
+                    48.19783666
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 16,
+                "STANDORT": "Nikolaiwiese",
+                "BEZ": "13",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/lainz.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.17",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.26587461,
+                    48.1741482
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 17,
+                "STANDORT": "Hörndlwald",
+                "BEZ": "13",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/hietzing.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.18",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.26142339,
+                    48.17166361
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 18,
+                "STANDORT": "Hörndlwald",
+                "BEZ": "13",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/hietzing.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.19",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.25617167,
+                    48.17929102
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 19,
+                "STANDORT": "Ghelengasse - Lindwurm",
+                "BEZ": "13",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/hietzing.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.20",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.26567486,
+                    48.20603462
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 20,
+                "STANDORT": "Dehnepark",
+                "BEZ": "14",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/penzing.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.21",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.28005107,
+                    48.213721
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 21,
+                "STANDORT": "Steinhofgründe",
+                "BEZ": "14",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/penzing.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.22",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.2575127,
+                    48.20710782
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 22,
+                "STANDORT": "Paradies",
+                "BEZ": "14",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/penzing.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.23",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.28477556,
+                    48.21716864
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 23,
+                "STANDORT": "Liebhartstal",
+                "BEZ": "16",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/ottakring.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.24",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.2744866,
+                    48.24179064
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 24,
+                "STANDORT": "Schwarzenbergpark",
+                "BEZ": "17",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/hernals.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.25",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.2667129,
+                    48.24577962
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 25,
+                "STANDORT": "Exelbergstraße - ehemaliges Rohrerbad",
+                "BEZ": "17",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/hernals.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.26",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.29375023,
+                    48.26437869
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 26,
+                "STANDORT": "Grüß di a Gott Wirt",
+                "BEZ": "19",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/doebling.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.27",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.30002761,
+                    48.27254721
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 27,
+                "STANDORT": "Jägerwiese",
+                "BEZ": "19",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/doebling.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.28",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.31707793,
+                    48.26465886
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 28,
+                "STANDORT": "Cobenzl - Wiese",
+                "BEZ": "19",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/doebling.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.30",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.32950833,
+                    48.26795205
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 30,
+                "STANDORT": "Krapfenwaldgasse",
+                "BEZ": "19",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/doebling.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.31",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.38163045,
+                    48.31173073
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 31,
+                "STANDORT": "Magdalenenhof - Senderstraße",
+                "BEZ": "21",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/floridsdorf.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.32",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.38394383,
+                    48.3157379
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 32,
+                "STANDORT": "Falkenberg",
+                "BEZ": "21",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/floridsdorf.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.33",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.42843193,
+                    48.25780395
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 33,
+                "STANDORT": "Satzingerweg",
+                "BEZ": "21",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/floridsdorf.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.34",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.42971885,
+                    48.26007289
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 34,
+                "STANDORT": "Satzingerweg",
+                "BEZ": "21",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/floridsdorf.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.35",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.43821297,
+                    48.25597161
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 35,
+                "STANDORT": "Thonetgasse",
+                "BEZ": "22",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/donaustadt.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.36",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.42337086,
+                    48.29023972
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 36,
+                "STANDORT": "Anton Schallgasse",
+                "BEZ": "21",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/floridsdorf.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.37",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.43792356,
+                    48.28866519
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 37,
+                "STANDORT": "Gerasdorfer Straße",
+                "BEZ": "21",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/floridsdorf.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.38",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.47178683,
+                    48.21347922
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 38,
+                "STANDORT": "Wulzendorf Süd",
+                "BEZ": "22",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/donaustadt.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.39",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.47337094,
+                    48.2166125
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 39,
+                "STANDORT": "Bertl Schulz - Hammerfestweg",
+                "BEZ": "22",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/donaustadt.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.40",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.51785045,
+                    48.20707517
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 40,
+                "STANDORT": "Kirschenallee",
+                "BEZ": "22",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/donaustadt.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.41",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.4584886,
+                    48.22360838
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 41,
+                "STANDORT": "Langobardenstraße - Hausgrundweg",
+                "BEZ": "22",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/donaustadt.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.42",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.45450847,
+                    48.22015284
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 42,
+                "STANDORT": "Stadlau/Mühlgrund",
+                "BEZ": "22",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/donaustadt.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.43",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.45758822,
+                    48.21073987
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 43,
+                "STANDORT": "Lobelienweg",
+                "BEZ": "22",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/donaustadt.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.44",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.46864576,
+                    48.19351849
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 44,
+                "STANDORT": "Nationalparkhaus",
+                "BEZ": "22",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/erholung/nationalpark/haus/index.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.45",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.4936251,
+                    48.25634101
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 45,
+                "STANDORT": "Rautenweg",
+                "BEZ": "22",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/donaustadt.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.46",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.23669715,
+                    48.13726859
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 46,
+                "STANDORT": "Schubertpark",
+                "BEZ": "23",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/liesing.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.47",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.2478335,
+                    48.1454162
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 47,
+                "STANDORT": "Pappelteich",
+                "BEZ": "23",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/liesing.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.641",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.431409,
+                    48.16392713
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 641,
+                "STANDORT": "Naturlehrpfad nahe Florian-Hedorfer-Straße",
+                "BEZ": "11",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/simmering.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.642",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.43711892,
+                    48.1628039
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 642,
+                "STANDORT": "Naturlehrpfad zwischen Schloss und Florian-Hedorfer-Straße",
+                "BEZ": "11",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/simmering.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "WALDSPIELPLOGD.643",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.43968455,
+                    48.16166899
+                ]
+            },
+            "geometry_name": "SHAPE",
+            "properties": {
+                "OBJECTID": 643,
+                "STANDORT": "Naturlehrpfad Schloss Neugebäude nahe Barockgarten",
+                "BEZ": "11",
+                "ANGEBOT": "MA49 - Waldspielplatz",
+                "WEITERE_INFO": "https://www.wien.gv.at/umwelt/wald/freizeit/spielplaetze/simmering.html",
+                "SE_ANNO_CAD_DATA": null
+            }
+        }
+    ],
+    "totalFeatures": 56,
+    "numberMatched": 56,
+    "numberReturned": 56,
+    "timeStamp": "2025-05-05T04:32:19.170Z",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+        }
+    }
+}

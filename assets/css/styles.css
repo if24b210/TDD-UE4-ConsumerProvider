@@ -1,0 +1,911 @@
+/*
+1.) global Variables
+
+2.) Navbar styles
+
+3.) Summary styles
+
+3.1) Packing List styles
+
+3.2) Routing styles
+
+4.) Footer styles
+
+5.) Filter styles
+
+6.) Imprint styles
+
+7.) Index
+
+
+
+
+*/
+
+/*-----------------------------------------------------------------------------------------
+
+                                            GLOBAL VARIABLES
+------------------------------------------------------------------------------------------*/
+:root {
+    --color-primary: #157347;
+    /*#004D40*/
+    --color-secondary: #279611;
+    --color-accent: #f5dc4ccf;
+    --color-text-footer: white;
+}
+
+h1 {
+    color: var(--color-primary);
+}
+
+h2 {
+    color: var(--color-primary);
+}
+
+h3 {
+    color: var(--color-primary);
+}
+
+h4 {
+    color: var(--color-primary);
+}
+
+h5 {
+    color: var(--color-primary);
+}
+
+
+
+/*-----------------------------------------------------------------------------------------
+
+                                            NAVBAR
+
+------------------------------------------------------------------------------------------*/
+
+
+.navbar {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.25);
+    padding: 0px;
+    /*override bootstrap padding*/
+}
+
+
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 50px;
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.nav-link:hover {
+    color: var(--color-secondary) !important;
+    opacity: 0.9;
+}
+
+.nav-link.active {
+    font-weight: bold !important;
+    color: var(--color-secondary) !important;
+}
+
+/*Accessibility*/
+.skip-link {
+    position: absolute;
+    top: -40px;
+    /* Hide off-screen by default */
+    left: 0;
+    background: #000;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    z-index: 1000;
+    /* Ensure it's above other elements */
+}
+
+.skip-link:focus {
+    top: 10px;
+    /* Show when focused (keyboard users) */
+    outline: 2px solid #7ecb26;
+    /* Match your theme */
+}
+
+
+
+
+/* Map-filter */
+.map-container {
+    height: 600px;
+}
+
+@media (max-width: 768px) {
+    .map-container {
+        height: 300px;
+        /* or 350px if you prefer */
+    }
+}
+
+/*responsive
+ X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap*/
+
+
+.query-test {
+    color: darkgreen;
+}
+
+
+/* sm Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+
+    header.sticky-header {
+        position: sticky;
+        top: 0;
+        z-index: 1030;
+
+    }
+
+    .query-test {
+        color: red;
+    }
+
+
+}
+
+/* md Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .query-test {
+        color: darkgreen;
+    }
+
+}
+
+/* lg Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .query-test {
+        color: red;
+    }
+}
+
+/* xl X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .query-test {
+        color: darkgreen;
+    }
+}
+
+/* xxl XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    .query-test {
+        color: red;
+    }
+}
+
+
+
+/*-----------------------------------------------------------------------------------------
+
+                                            SUMMARY
+
+------------------------------------------------------------------------------------------*/
+.a_summary {
+    color: var(--color-primary);
+}
+
+#btn_backToMap{
+    text-decoration: none;
+}
+
+#park-name {
+    font-size: 3rem;   
+}
+
+/*buttons on Summary page*/
+/*.btn-summary {
+    background-color: var(--color-primary);
+    color: var(--color-text-footer);
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    margin-top: 15px;
+}*/
+
+.btn-summary{
+    display: block;
+    margin: 30px auto;
+    width: fit-content;
+    padding: 12px 25px;
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-summary:hover {
+    background-color: var(--color-secondary);
+    transform: translateY(-2px);
+}
+
+/*
+.btn-summary:hover {
+    background: var(--color-accent);
+    color: var(--color-primary);
+  
+}
+*/
+
+/* Park icons */
+#summary-icon-container{
+    width: 200px; 
+    justify-self: flex-start;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #212529; 
+    border-radius: 0.375rem;  
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15); 
+}
+.icon-summary {
+    max-height: 400px;
+    justify-self: center;
+}
+
+.date-temp {
+    font-size: 1rem;
+}
+
+.date-temp .date {
+    margin-right: 8px;
+}
+
+
+/* About park images */
+.circle-img {
+    background-color: #fff;
+    width: 230px;
+    height: calc(1.13 * 230px);
+    object-fit: cover;
+    border-radius: 45%;
+    padding: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.circle-img:nth-child(1) {
+    left: 5%;
+    top: 15%;
+}
+
+.circle-img:nth-child(2) {
+    left: 15%;
+    top: -10%;
+}
+
+.circle-img:nth-child(3) {
+    right: -25%;
+    top: 10%;
+}
+
+/* Info card */
+.info-card {
+    background-color: #f0f6e9;
+    /* max-width: 600px; */
+}
+
+/* Essentials card */
+.essentials-card {
+    background-color: #F5F5DC;
+    min-width: 200px;
+    /* min-height: 300px; */
+}
+
+/* Responsive */
+@media (max-width: 1300px) {
+    #park-name {
+        font-size: 2.5rem;
+    }
+
+    .circle-img {
+        width: 200px;
+        height: calc(1.13 * 200px);
+    }
+
+    .circle-img:nth-child(1) {
+        left: 0;
+        top: 15%;
+    }
+
+    .circle-img:nth-child(2) {
+        left: 0;
+        top: -10%;
+    }
+
+    .circle-img:nth-child(3) {
+        right: 0;
+        top: 10%;
+    }
+}
+
+@media (max-width: 900px) {
+    .circle-img {
+        width: 180px;
+        height: calc(1.13 * 180px);
+    }
+
+    .circle-img:nth-child(2) {
+        top: -5%;
+    }
+}
+
+@media (max-width: 767.9px) {
+    .circle-img {
+        width: 200px;
+        height: calc(1.13 * 200px);
+    }
+
+    .circle-img:nth-child(1) {
+        left: 15%;
+    }
+
+    .circle-img:nth-child(3) {
+        right: 12%;
+    }
+}
+
+@media (max-width: 576px) {
+    #park-name {
+        font-size: 2rem;        
+    }
+
+    .park-img {
+        height: 230px;
+    }
+
+    .circle-img {
+        width: 150px;
+        height: calc(1.13 * 150px);
+    }
+}
+
+@media (max-width: 520px) {
+    .date-temp {
+        font-size: 0.8rem;
+    }
+
+    .circle-img:nth-child(1) {
+        left: 15%;
+    }
+
+    .circle-img:nth-child(2) {
+        left: 1%;
+    }
+
+    .circle-img:nth-child(3) {
+        right: 10%;
+    }
+}
+
+@media (max-width: 440px) {
+    .park-icons svg {
+        width: 23px;
+        height: 20px;
+    }
+
+    .circle-img:nth-child(1) {
+        left: 8%;
+    }
+
+    .circle-img:nth-child(2) {
+        left: 0;
+    }
+
+    .circle-img:nth-child(3) {
+        right: 5%;
+    }
+}
+
+@media (max-width: 400px) {
+    .park-icons svg {
+        width: 20px;
+        height: 17px;
+    }
+
+    .circle-img:nth-child(1) {
+        left: 4%;
+    }
+
+    .circle-img:nth-child(2) {
+        left: 0;
+    }
+
+    .circle-img:nth-child(3) {
+        right: 2%;
+    }
+}
+
+/*-----------------------------------------------------------------------------------------
+
+                                            Packing List
+
+------------------------------------------------------------------------------------------*/
+
+#btn_printPackingList {
+
+    justify-self: end;
+}
+
+#visitDate {
+    width: fit-content;
+}
+
+
+
+#timeOfDay{
+
+    margin-top: 2rem;
+}
+
+.custom-btn {
+
+    color: black;
+    border: var(--color-primary);
+    background-color: #f0f6e9 !important;
+
+    height: fit-content;
+}
+
+.custom-btn:hover {
+    background-color: var(--color-secondary)!important;
+    color: white !important;
+}
+
+.btn-check:checked+.custom-btn {
+    background-color: var(--color-primary) !important;
+    color: var(--color-text-footer) !important;
+}
+
+.btn-check:checked+label:hover{
+    background-color: var(--color-secondary) !important;
+    color: white !important;
+}
+
+
+/*-----------------------------------------------------------------------------------------
+
+                                            ROUTING
+
+------------------------------------------------------------------------------------------*/
+
+
+#btn_routing {
+    min-width: 35%;
+    margin-bottom: 1rem;
+    justify-self: center;
+    align-self: center;
+}
+
+#card-header-routing {
+    width: 100%;
+}
+
+.green-line {
+    background-color: var(--color-primary);
+    min-height: 0.2rem;
+}
+
+.routing-input {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0.7rem;
+}
+
+#routing-input-adress {
+    /*div that contains both text-inputs*/
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#arrow-routing {
+    font-size: 4rem;
+    color: var(--color-primary);
+    justify-self: center;
+    align-self: center;
+}
+/*on mobile arrow should be smaller*/
+@media (max-width: 420px) {
+    #arrow-routing {
+        font-size: 1.5rem;
+    }
+}
+
+
+.input-group-address { /*used twice: once it cointains all the input fields from the start address and once the input field from the goal*/
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+
+.address_input {
+    width: 100%;
+}
+
+#start_address_street_number {
+    max-width: 3rem;
+}
+
+.street-details-row {
+    margin-top: 0.2rem;;
+
+}
+#start_address_postal_code {
+    max-width: 4rem;
+}
+
+#goal_address{
+    margin-top: 1rem;
+}
+
+#routing-input-modeOfTransport {
+
+    margin-bottom: 0.5rem;
+}
+
+#routing-general-info {
+    /*Div that contains time-estimate and distance*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0.7rem;
+    margin-top: 0.7rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    /*height: 3.7rem; I am not sure which way I like it better */
+}
+
+#distance {
+    width: 50%;
+}
+
+#time-estimate {
+    width: 50%;
+}
+
+.align-center {
+    text-align: center;
+}
+
+#routing-map-container {
+    height: 450px;
+
+}
+
+#routing-directions {
+    padding: 1rem;
+    overflow-y: scroll;
+    height: 400px;
+}
+
+/*-----------------------------------------------------------------------------------------
+
+                                            FOOTER
+
+------------------------------------------------------------------------------------------*/
+
+
+/*Basic Design for small to medium screens*/
+.footer {
+    background-color: var(--color-primary);
+    min-height: auto;
+    max-height: fit-content;
+
+    margin-top: 3vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 4vw;
+    padding-bottom: 0vw;
+
+    /* font-size: 2vw; */
+
+    color: var(--color-text-footer);
+}
+
+
+.footer-logo-div p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.footer-img {
+    width: 50%;
+}
+
+/* .footer-h1 {
+    font-size: 3vw;
+} */
+
+.footer-a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: var(--color-text-footer);
+}
+
+.footer-a:hover {
+    color: var(--color-accent);
+}
+
+@media (min-width: 576px) {
+    .footer-img {
+        width: 70%;
+    }
+
+    .footer-div.pages{
+        margin-left: 5.2rem;
+    }
+
+    .footer-a {
+        font-size: 1rem;
+    }
+}
+
+/* big screens 992px) */
+@media (min-width: 992px) {
+    .footer {
+        font-size: 16px;
+        padding: 20px 40px;
+        margin-top: 30px;
+    }
+
+    .footer-logo-div p {
+        font-size: 1.6rem;
+    }
+
+    .footer-h1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 980px){
+    .footer-div.contact {
+        width: 100%;
+    }
+}
+
+/* very big screens 1200px */
+@media (min-width: 1200px) {
+    .footer {
+        font-size: 18px;
+        padding: 20px 60px;
+        margin-top: 40px;
+    }
+
+    .footer-logo-div p {
+        font-size: 1.8rem;
+    }
+
+    .footer-h1 {
+        font-size: 32px;
+    }
+
+}
+
+/*-----------------------------------------------------------------------------------------
+
+                                            FILTER
+
+------------------------------------------------------------------------------------------*/
+
+
+
+
+#map {
+    margin: 0%;
+}
+
+#filters_included {
+    background-color: #f5f7db;
+}
+
+
+/*-----------------------------------------------------------------------------------------
+
+                                            FILTER
+
+------------------------------------------------------------------------------------------*/
+
+.imprint-link {
+    color: var(--color-primary);
+}
+
+.imprint-link:hover {
+    color: var(--color-secondary);
+}
+
+
+#first-column {
+    display: flex;
+
+}
+
+/*-----------------------------------------------------------------------------------------
+
+                                            Index
+
+------------------------------------------------------------------------------------------*/
+#planVisitBtn{
+    max-width: 200px;
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/assets/fonts/Poppins/Poppins-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/assets/fonts/Poppins/Poppins-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-----------------------------------------------------------------------------------------
+
+                                            BACK TO TOP BUTTON
+
+------------------------------------------------------------------------------------------*/
+#backToTopBtn {
+    display: block;
+    margin: 30px auto;
+    width: 200px;
+    padding: 12px 25px;
+
+
+    cursor: pointer;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------
+
+                                            Print query
+
+------------------------------------------------------------------------------------------*/
+
+
+@media print {
+
+        @page {
+        size: A4 landscape;
+    }
+
+    .no-print { display: none !important; }
+    #packingList h3.fw-bold, #directions-heading { page-break-before: always; }
+  
+
+    /* Hide all unnecessary elements */
+    header, nav, .footer, #footer-container,
+    #print-btn, #btn_backToMap, #backToTopBtn,
+    button, .btn, .btn-summary, .btn-outline-dark,
+    #btn_createPackingList, #btn_printPackingList,
+    #routing-input-modeOfTransport, #btn_routing,
+    .green-line, #navbar-container, hr{
+        display: none !important;
+    }
+
+    /* Compact containers and cards, remove shadows */
+    .container, .container-fluid, .card, .forecast-card, .routing-card {
+        box-shadow: none !important;
+        border: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+       background: white !important;
+    }
+
+    /* Remove extra spacing */
+    section, .row, .col-12, .col-md-5, .col-md-7, .col-lg-11, .col-xl-10, .col-xl-8, .col-lg-10 {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* More compact headings */
+    h1, h2, h3, h4, h5 {
+        margin: 0 0 0.3em 0 !important;
+        padding: 0 !important;        
+    }
+
+    /* Compact lists and paragraphs */
+    ul, ol, li, p, label, .form-label {
+        margin: 0 0 0.2em 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Weather icons for print */
+    .weather-icon {        
+        background: none !important;
+        box-shadow: none !important;
+        border: none !important;
+        padding: 0 !important;
+    }
+
+    .forecast-card,
+    .forecast-card .card-body,
+    .days-row,
+    .card,
+    .card-body {
+        height: auto !important;
+        min-height: 0 !important;
+        max-height: none !important;
+        overflow: visible !important;
+        padding-bottom: 0 !important;
+    }
+
+    /* No colored backgrounds */
+    .forecast-card, .info-card, .essentials-card, .time-slot, .day-header, .card-header {
+        background: white !important;
+        color: black !important;
+    }
+
+    /* Prevent page breaks inside cards */
+    .card, .forecast-card, .routing-card {
+        page-break-inside: avoid;
+    }
+
+   
+    body {
+        font-size: 12pt !important;
+        background: white !important;
+    }
+
+    #routing-directions {
+        overflow: visible !important;
+        overflow-y: visible !important;
+        height: auto !important;
+        max-height: none !important;
+        min-height: 0 !important;
+        padding: 0 !important;
+        column-count: 3;
+        column-gap: 2.5em; 
+    }
+
+    #routing-directions ol {
+        list-style-type: decimal !important;
+        list-style-position: inside !important;
+        margin-left: 0 !important;
+        padding-left: 1.2em !important;
+    }
+    #routing-directions li {
+        display: list-item !important;
+        break-inside: avoid;
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+        overflow: visible !important;
+    }
+}
+
+

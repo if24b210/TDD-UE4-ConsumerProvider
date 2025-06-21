@@ -1,0 +1,15 @@
+# Node.js Abhängigkeiten
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Build-Verzeichnisse
+dist/
+# Umgebungsvariablen
+.env
+# Betriebssystem-spezifische Dateien
+.DS_Store
+# Editor-spezifische Dateien
+.vscode/
+# Temporäre Dateien
+tmp/

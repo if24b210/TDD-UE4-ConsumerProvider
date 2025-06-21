@@ -1,0 +1,177 @@
+#weather-hourly-card-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 40px;
+}
+
+#weather-today-info {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row; /* nebeneinander */
+  align-items: flex-start;
+  /* gap: 2rem; */ /* Abstand zwischen den beiden Boxen */
+  min-height: fit-content;
+}
+
+#hourly-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 Spalten ab 1024px */
+  gap: 1rem; /* Abstand zwischen den Zellen */
+  align-items: start; /* Zelleninhalt oben ausrichten */
+  justify-items: center; /* Zelleninhalt horizontal zentrieren */
+  padding-top: 0.5rem; /* optional: Abstand nach oben */
+}
+
+.weather-hourly-header {
+  align-self: center;
+  text-align: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+#cur_weather_icon {
+  align-self: center;
+  justify-self: center;
+  width: 9rem;
+  height: 9rem;
+}
+
+.weather-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.weather-hourly {
+  background-color: #ffffe9;
+  box-shadow: inset 1px 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 1.25rem; /* entspricht Bootstrap's rounded-5 */
+  padding: 1rem;
+  text-align: center;
+  min-height: fit-content;
+}
+
+.weather-hourly p {
+  margin: 0; /* ersetzt mb-0 */
+  font-weight: 500;
+}
+
+.weather-hourly img {
+  min-width: 60%;
+  height: auto;
+  display: block;
+  margin: 0.5rem auto 0; /* zentriert das Bild und gibt Abstand nach oben */
+}
+
+.weather-hourly .hourly-temp {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.weather-daily-card {
+  background-color: #dfe9d9;
+}
+
+#days-switch-btn {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
+  cursor: pointer;
+}
+
+.days-switch {
+  padding: 6px 10px;
+}
+
+.days-switch.active {
+  background-color: #ffffe9;
+}
+
+.weather-icon {
+  font-size: 2rem;
+}
+
+/* Responsive Umschalten auf Spalten-Layout */
+@media (max-width: 1373px) {
+  #weather-today-info {
+    flex-direction: column; /* untereinander auf kleinen Bildschirmen */
+    align-items: stretch;
+  }
+
+  #weather-hourly-card-info {
+    padding-top: 0px;
+  }
+
+  #hourly-grid {
+    gap: 0.8rem;
+  }
+
+  .weather-hourly {
+    padding: 0.5rem;
+  }
+
+  .weather-hourly p {
+    font-size: 1rem;
+  }
+
+  .weather-hourly .hourly-temp {
+    font-size: 1rem;
+  }
+}
+
+#forecast-days7 {
+  height: fit-content;
+}
+
+@media (min-width: 1374px) {
+  #forecast-days7 {
+    height: 215px;
+    overflow-y: scroll;
+  }
+}
+
+@media (max-width: 1000px) {
+  #hourly-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .weather-hourly {
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 874px) {
+  #forecast-days3 .date .comma,
+  #forecast-days7 .date .comma {
+    width: 5px;
+    margin-top: 1.6rem;
+  }
+}
+
+@media (max-width: 425px) {
+  #forecast-days3 .date .day,
+  #forecast-days7 .date .day {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .days-switch {
+    font-size: 0.8rem;
+  }
+
+  #forecast-days3 .daily-temp,
+  #forecast-days3 .date,
+  #forecast-days7 .daily-temp,
+  #forecast-days7 .date {
+    font-size: 0.9rem;
+  }
+
+  #forecast-days3 .date .day,
+  #forecast-days7 .date .day {
+    margin-left: 0.6rem;
+  }
+}

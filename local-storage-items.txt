@@ -1,0 +1,8 @@
+"user-address" 
+	{
+	  "raw": "Main St 123, 1010",
+	  "street": "Main St",
+	  "house_number": "123",
+	  "postcode": "1010"
+	}
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <!-- Custom css General-->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <!-- Custom css Weather-->
+    <link rel="stylesheet" href="../assets/css/weather-forecast.css">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="../assets/bootstrap/images/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+   <main>
+    <!-- ROUTING-->
+        <div>
+            <div class="card routing-card px-0 shadow-sm rounded">
+                
+                <!--Routing-HEADER-->
+                <div id= "card-header-routing" class="card-header w-100">
+                    <h3 class="" style="color:white;">How will you get there?</h3>
+                </div>
+
+                <!--Routing-INPUT-Start Adress-->
+                <div id="routing-input-adress" class="routing-input">
+                    <div class="input-group-address">
+                        <input type="text" class="address_input" id="start_address_street" placeholder="MyStreet">
+                        <input type="number" id="start_address_street_number" placeholder="num">
+                        <input type="number" id="start_address_postal_code" placeholder="ZIP">
+                    </div>
+                    <i id="arrow-routing" class="bi bi-arrow-right"></i>
+                    <div class="input-group-address">
+                        <input type="text" class="address_input" id="goal_address" disabled> 
+                    </div>                           
+                </div>
+
+                <!--Routing-INPUT-mode of Transport-->
+                <div id="routing-input-modeOfTransport" class="btn-group routing-input" role="group" aria-label="Mode of Transport">
+                    <input type="radio" class="btn-check" name="modeOfTransport" id="walking" value="foot-walking" autocomplete="off">
+                    <label class="btn custom-btn" for="walking"> <i class="bi bi-person-walking"></i>  walking</label>
+                      
+                    <input type="radio" class="btn-check" name="modeOfTransport" id="cycling" value="cycling-regular" autocomplete="off" checked>
+                    <label class="btn custom-btn" for="cycling"><i class="bi bi-bicycle"></i>  Cycling</label>
+                                
+                    <input type="radio" class="btn-check" name="modeOfTransport" id="driving" value="driving-car" autocomplete="off">
+                    <label class="btn custom-btn" for="driving"><i class="bi bi-car-front-fill"></i>  Driving</label>
+                </div>
+
+                <!--Button to start Routing-->
+                <button id="btn_routing" class=" btn-summary btn-outline-dark px-5 py-2 rounded-4 shadow" type="button">Route!</button>
+
+                <!--green line-->
+                <div class="green-line"></div>
+
+                <!--Error Messages-->
+                <div id ="routing-error"></div>
+            
+                <!--General Information-->
+                <div id="routing-general-info">
+                            
+                    <div id="distance">
+                        <h5 class="align-center">Distance: </h5>
+                    </div>
+
+                    <div id ="time-estimate">
+                        <h5 class="align-center">Time:</h5>
+                    </div>
+
+                </div>
+                            
+                <!--green line-->
+                <div class="green-line"></div>
+
+                <!--Routing - MAP-->
+                <div id="routing-map-container">
+                   <!--the map is loaded here--> 
+                </div>
+
+                <!--green line-->
+                <div class="green-line"></div>
+                             
+                <!--Routing-Directions or Error-Messages-->
+                <h4 style="align-self: center; justify-self: center; margin-top: 0.7rem;">Directions:</h5>
+                <div id="routing-directions">
+                    <!--Routing directions are loaded here-->
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Bootstrap js -->
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!--Routing Functionality-->
+    <script src="../assets/js/routing.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GreenScape - Your guide to green spaces in Vienna" />
+  <meta name="keywords" content="GreenScape, Green Spaces, Parks, Gardens, Nature, Vienna" />
+  <meta name="author" content="GreenScape Team" />
+  <meta name="robots" content="index, follow" />
+  <title>GreenScape</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo-no-text.svg" />
+
+  <link rel="stylesheet" href="assets/fonts/Poppins/stylesheet.css" /> <!-- TODO: Error Message Font -->
+  <!-- bootstrap style -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+  <!-- poppins style -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/map.css" />
+  <link rel="stylesheet" href="assets/css/weather.css" />
+
+  <!-- TODO: download, add to assets-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <header class="sticky-header">
+    <div id="navbar-container"></div>
+  </header>
+
+  <main id="main-content">
+    <!-- Weather cards -->
+    <section id="weather" class="my-5">
+      <!--contains today info and forecast divs-->
+      <div class="container-fluid mx-auto my-2 row row-cols-1 row-cols-md-2 g-3 col-md-11 col-xl-10">
+        <!-- Hourly forecast for the present day -->
+        <div class="col mb-3">
+          <div id="weather-today" class="w-100 bg-white mx-auto px-3 pb-3 px-md-4 pb-md-4 rounded-4 shadow">
+            <div id="weather-today-info">
+              <!--this div is to have the icon and "vienna" above the other informations on mobile-->
+              <div class="weather-header">
+                <!--Big weather icon-->
+                <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="weather description"
+                  id="cur_weather_icon" />
+
+                <!--City name-->
+                <span class="weather-hourly-header city-name">
+                  <h4 id="city_name">Vienna</h4>
+                  <h6 id="country">Austria</h6>
+                </span>
+              </div>
+
+              <!-- info -->
+              <div id="weather-hourly-card-info">
+                <!--Temperature-->
+                <span id="cur_temp" class="weather-hourly-header">
+                  <h4>
+                    <span class="fs-md-6 text-body-secondary">°C</span>°C
+                  </h4>
+                  <h6>Temp</h6>
+                </span>
+
+                <!--Humidity-->
+                <span id="cur_humid" class="weather-hourly-header">
+                  <h4><span class="fs-md-6 text-body-secondary">%</span>%</h4>
+                  <h6>Humidity</h6>
+                </span>
+
+                <!--Wind-->
+                <span id="cur_wind_speed" class="weather-hourly-header">
+                  <h4>
+                    <span class="fs-md-6 text-body-secondary">km/h</span>km/h
+                  </h4>
+                  <h6>Wind</h6>
+                </span>
+              </div>
+            </div>
+
+            <!-- hourly widgets -->
+            <!--<div class="mb-2 d-flex flex-row justify-content-between align-items-center">-->
+            <div id="hourly-grid">
+              <div class="weather-hourly">
+                <p>09 <span>am</span></p>
+                <!-- <i class="bi bi-cloud-sun-fill fs-3"></i> -->
+                <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="weather description" />
+                <div class="hourly-temp">22°</div>
+              </div>
+
+              <div class="weather-hourly">
+                <p>10 <span>am</span></p>
+                <!-- <i class="bi bi-cloud-lightning-rain-fill fs-3"></i> -->
+                <img src="http://openweathermap.org/img/wn/50d@2x.png" alt="weather description" />
+                <div class="hourly-temp">17°</div>
+              </div>
+
+              <div class="weather-hourly">
+                <p>11 <span>am</span></p>
+                <!-- <i class="bi bi-cloud-sleet-fill fs-3"></i> -->
+                <img src="http://openweathermap.org/img/wn/03d@2x.png" alt="weather description" />
+                <div class="hourly-temp">18°</div>
+              </div>
+
+              <div class="weather-hourly">
+                <p>12 <span>pm</span></p>
+                <!-- <i class="bi bi-cloud-fill fs-3"></i> -->
+                <img src="http://openweathermap.org/img/wn/02d@2x.png" alt="weather description" />
+                <div class="hourly-temp">20°</div>
+              </div>
+
+              <div class="weather-hourly">
+                <p>01 <span>pm</span></p>
+                <!-- <i class="bi bi-sun-fill fs-3"></i> -->
+                <img src="http://openweathermap.org/img/wn/09d@2x.png" alt="weather description" />
+                <div class="hourly-temp">25°</div>
+              </div>
+
+              <div class="weather-hourly">
+                <p>02 <span>pm</span></p>
+                <!-- <i class="bi bi-sun-fill fs-3"></i> -->
+                <img src="http://openweathermap.org/img/wn/11d@2x.png" alt="weather description" />
+                <div class="hourly-temp">25°</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3-7 days forecast -->
+        <div class="col mb-3">
+          <div class="w-100 p-4 rounded-4 shadow weather-daily-card">
+            <!-- title -->
+            <div class="w-100 d-flex flex-row justify-content-between align-items-center">
+              <div>
+                <h3 class="fw-semibold">Forecasts</h3>
+              </div>
+
+              <div id="days-switch-btn"
+                class="rounded-4 shadow d-flex flex-row justify-content-between align-items-center">
+                <span class="rounded-4 days-switch active"> 3 days </span>
+                <span class="rounded-4 days-switch"> 7 days </span>
+              </div>
+            </div>
+
+            <!-- details -->
+            <div class="mt-4">
+              <!-- 3 days -->
+              <div id="forecast-days3">
+                <div
+                  class="bg-white mx-auto mt-4 px-4 py-1 rounded-5 shadow d-flex justify-content-between align-items-center">
+                  <div>
+                    <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="weather description"
+                      class="w-50 h-50" />
+                  </div>
+
+                  <div class="daily-temp">
+                    <span class="fw-semibold fs-md-5 max">+22</span>&deg/
+                    <span class="text-body-secondary min">+18</span>&deg
+                  </div>
+
+                  <div class="d-flex justify-content-between align-items-center date">
+                    <span class="fw-semibold fs-md-5 me-3 day">07</span>
+                    <span class="text-body-secondary month">April</span>
+                    <span class="comma">, &nbsp;</span>
+                    <span class="text-body-secondary weekday"> Mon</span>
+                  </div>
+                </div>
+
+                <div
+                  class="bg-white mx-auto mt-3 px-4 py-1 rounded-5 shadow d-flex justify-content-between align-items-center">
+                  <div>
+                    <!-- <i class="bi bi-cloud-fill weather-icon"></i> -->
+                    <img src="http://openweathermap.org/img/wn/03d@2x.png" alt="weather description"
+                      class="w-50 h-50" />
+                  </div>
+
+                  <div class="daily-temp">
+                    <span class="fw-semibold fs-md-5 max">+20</span>&deg/
+                    <span class="text-body-secondary min">+17</span>&deg
+                  </div>
+
+                  <div class="d-flex justify-content-between align-items-center date">
+                    <span class="fw-semibold fs-md-5 me-3 day">08</span>
+                    <span class="text-body-secondary month">April</span>,
+                    &nbsp;
+                    <span class="text-body-secondary weekday"> Tue</span>
+                  </div>
+                </div>
+
+                <div
+                  class="bg-white mx-auto mt-3 px-4 py-1 rounded-5 shadow d-flex justify-content-between align-items-center">
+                  <div>
+                    <!-- <i class="bi bi-sun-fill weather-icon"></i> -->
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather description"
+                      class="w-50 h-50" />
+                  </div>
+
+                  <div class="daily-temp">
+                    <span class="fw-semibold fs-md-5 max">+25</span>&deg/
+                    <span class="text-body-secondary min">+20</span>&deg
+                  </div>
+
+                  <div class="d-flex justify-content-between align-items-center date">
+                    <span class="fw-semibold fs-md-5 me-3 day">09</span>
+                    <span class="text-body-secondary month">April</span>,
+                    &nbsp;
+                    <span class="text-body-secondary weekday"> Wed</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 7 days -->
+              <div id="forecast-days7">
+                <div
+                  class="bg-white mx-auto mt-3 px-4 py-1 rounded-5 shadow d-flex justify-content-between align-items-center">
+                  <div>
+                    <!-- <i class="bi bi-cloud-sun-fill weather-icon"></i> -->
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather description"
+                      class="w-50 h-50" />
+                  </div>
+
+                  <div class="daily-temp">
+                    <span class="fw-semibold fs-md-5 max">+22</span>&deg/
+                    <span class="text-body-secondary min">+18</span>&deg
+                  </div>
+
+                  <div class="d-flex justify-content-between align-items-center date">
+                    <span class="fw-semibold fs-md-5 me-3 day">07</span>
+                    <span class="text-body-secondary month">April</span>,
+                    &nbsp;
+                    <span class="text-body-secondary weekday"> Mon</span>
+                  </div>
+                </div>
+
+                <div
+                  class="bg-white mx-auto mt-3 px-4 py-1 rounded-5 shadow d-flex justify-content-between align-items-center">
+                  <div>
+                    <!-- <i class="bi bi-cloud-fill weather-icon"></i> -->
+                    <img src="http://openweathermap.org/img/wn/50d@2x.png" alt="weather description"
+                      class="w-50 h-50" />
+                  </div>
+
+                  <div class="daily-temp">
+                    <span class="fw-semibold fs-md-5 max">+20</span>&deg/
+                    <span class="text-body-secondary min">+17</span>&deg
+                  </div>
+
+                  <div class="d-flex justify-content-between align-items-center date">
+                    <span class="fw-semibold fs-md-5 me-3 day">08</span>
+                    <span class="text-body-secondary month">April</span>,
+                    &nbsp;
+                    <span class="text-body-secondary weekday"> Tue</span>
+                  </div>
+                </div>
+
+                <div
+                  class="bg-white mx-auto mt-3 px-4 py-1 rounded-5 shadow d-flex justify-content-between align-items-center">
+                  <div>
+                    <!-- <i class="bi bi-sun-fill weather-icon"></i> -->
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather description"
+                      class="w-50 h-50" />
+                  </div>
+
+                  <div class="daily-temp">
+                    <span class="fw-semibold fs-md-5 max">+25</span>&deg/
+                    <span class="text-body-secondary min">+20</span>&deg
+                  </div>
+
+                  <div class="d-flex justify-content-between align-items-center date">
+                    <span class="fw-semibold fs-md-5 me-3 day">09</span>
+                    <span class="text-body-secondary month">April</span>,
+                    &nbsp;
+                    <span class="text-body-secondary weekday"> Wed</span>
+                  </div>
+                </div>
+
+                <div
+                  class="bg-white mx-auto mt-3 px-4 py-1 rounded-5 shadow d-flex justify-content-between align-items-center">
+                  <div>
+                    <!-- <i class="bi bi-cloud-sun-fill weather-icon"></i> -->
+                    <img src="http://openweathermap.org/img/wn/11d@2x.png" alt="weather description"
+                      class="w-50 h-50" />
+                  </div>
+
+                  <div class="daily-temp">
+                    <span class="fw-semibold fs-md-5 max">+22</span>&deg/
+                    <span class="text-body-secondary min">+18</span>&deg
+                  </div>
+
+                  <div class="d-flex justify-content-between align-items-center date">
+                    <span class="fw-semibold fs-md-5 me-3 day">10</span>
+                    <span class="text-body-secondary month">April</span>,
+                    &nbsp;
+                    <span class="text-body-secondary weekday"> Thurs</span>
+                  </div>
+                </div>
+
+                <div
+                  class="bg-white mx-auto mt-3 px-4 py-1 rounded-5 shadow d-flex justify-content-between align-items-center">
+                  <div>
+                    <!-- <i class="bi bi-cloud-fill weather-icon"></i> -->
+                    <!-- <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather description" class="w-50 h-50"> -->
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather description"
+                      class="w-50 h-50" />
+                  </div>
+
+                  <div class="daily-temp">
+                    <span class="fw-semibold fs-md-5 max">+20</span>&deg/
+                    <span class="text-body-secondary min">+17</span>&deg
+                  </div>
+
+                  <div class="d-flex justify-content-between align-items-center date">
+                    <span class="fw-semibold fs-md-5 me-3 day">11</span>
+                    <span class="text-body-secondary month">April</span>,
+                    &nbsp;
+                    <span class="text-body-secondary weekday"> Fri</span>
+                  </div>
+                </div>
+
+                <div
+                  class="bg-white mx-auto mt-3 px-4 py-1 rounded-5 shadow d-flex justify-content-between align-items-center">
+                  <div>
+                    <!-- <i class="bi bi-sun-fill weather-icon"></i> -->
+                    <img src="http://openweathermap.org/img/wn/09d@2x.png" alt="weather description"
+                      class="w-50 h-50" />
+                  </div>
+
+                  <div class="daily-temp">
+                    <span class="fw-semibold fs-md-5 max">+25</span>&deg/
+                    <span class="text-body-secondary min">+20</span>&deg
+                  </div>
+
+                  <div class="d-flex justify-content-between align-items-center date">
+                    <span class="fw-semibold fs-md-5 me-3 day">12</span>
+                    <span class="text-body-secondary month">April</span>,
+                    &nbsp;
+                    <span class="text-body-secondary weekday"> Sat</span>
+                  </div>
+                </div>
+
+                <div
+                  class="bg-white mx-auto mt-3 px-4 py-1 rounded-5 shadow d-flex justify-content-between align-items-center">
+                  <div>
+                    <!-- <i class="bi bi-sun-fill weather-icon"></i> -->
+                    <img src="http://openweathermap.org/img/wn/13d@2x.png" alt="weather description"
+                      class="w-50 h-50" />
+                  </div>
+
+                  <div class="daily-temp">
+                    <span class="fw-semibold fs-md-5 max">+25</span>&deg/
+                    <span class="text-body-secondary min">+20</span>&deg
+                  </div>
+
+                  <div class="d-flex justify-content-between align-items-center date">
+                    <span class="fw-semibold fs-md-5 me-3 day">13</span>
+                    <span class="text-body-secondary month">April</span>,
+                    &nbsp;
+                    <span class="text-body-secondary weekday"> Sun</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map-filter -->
+    <section>
+      <div class="container-fluid px-3 py-4 col-lg-11 col-xl-10">
+        <!-- Filters + Map Row -->
+        <div id="filterAndMap" class="row gx-3">
+          <!-- Filters -->
+          <div id="filters" class="col-sm-12 col-md-3 mb-3 mb-md-0">
+            <div id="filters_included" class="card shadow p-3 rounded-4">
+              <!-- Search Bar inside Card -->
+              <div class="mb-3">
+                <input type="text" id="searchInput" class="form-control rounded-pill"
+                  placeholder="Search your green space..." />
+              </div>
+
+              <h5 class="fw-bold border-bottom pb-2">Filters</h5>
+
+              <!-- Type of green space -->
+              <div class="white-box">
+                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown1">
+                  Type of green space ▼
+                </button>
+
+                <div class="collapse show" id="dropdown1">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="parks" />
+                    <label class="form-check-label" for="parks">Parks</label>
+                  </div>
+
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="dogs" />
+                    <label class="form-check-label" for="dogs">Dog Park</label>
+                  </div>
+
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="cemeteries" />
+                    <label class="form-check-label" for="cemeteries">Cemeteries</label>
+                  </div>
+
+                  <!-- Playground Filter -->
+                  <button class="btn btn-sm" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#dropdown-playground">
+                    Playground ▼
+                  </button>
+                  <div class="collapse show" id="dropdown-playground">
+                    <div class="form-check ms-3 mt-2">
+                      <input class="form-check-input" type="checkbox" id="general-playgrounds" />
+                      <label class="form-check-label" for="general-playgrounds">General Playgrounds</label>
+                    </div>
+                    <div class="form-check ms-3 mt-2">
+                      <input class="form-check-input" type="checkbox" id="themed-playgrounds" disabled />
+                      <label class="form-check-label" for="themed-playgrounds">Themed Playgrounds</label>
+                    </div>
+                    <div class="form-check ms-3 mt-2">
+                      <input class="form-check-input" type="checkbox" id="toddler-playgrounds" disabled />
+                      <label class="form-check-label" for="toddler-playgrounds">Toddler Playgrounds</label>
+                    </div>
+                    <div class="form-check ms-3 mt-2">
+                      <input class="form-check-input" type="checkbox" id="generational-playgrounds" disabled />
+                      <label class="form-check-label" for="generational-playgrounds">Generational Playgrounds</label>
+                    </div>
+                    <div class="form-check ms-3 mt-2">
+                      <input class="form-check-input" type="checkbox" id="ball-playgrounds" disabled />
+                      <label class="form-check-label" for="ball-playgrounds">Ball Playgrounds</label>
+                    </div>
+                    <div class="form-check ms-3 mt-2">
+                      <input class="form-check-input" type="checkbox" id="ball-cage-playgrounds" disabled />
+                      <label class="form-check-label" for="ball-cage-playgrounds">Ball Cage</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Essential Features -->
+                <div class="white-box mt-3">
+                  <button class="btn text-start" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown2">
+                    Essential Features ▼
+                  </button>
+                  <div class="collapse show" id="dropdown2">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="restrooms" />
+                      <label class="form-check-label" for="restrooms">Public restrooms</label>
+                    </div>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="fountains" />
+                      <label class="form-check-label" for="fountains">Drinking fountains</label>
+                    </div>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="dogs-allowed" />
+                      <label class="form-check-label" for="dogs-allowed">Dogs allowed</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Map -->
+          <div class="col-sm-12 col-md-9">
+            <div id="map" class="border rounded-4 shadow-sm map-container"></div>
+          </div>
+
+          <!-- Park Details -->
+          <div id="parkDetails" class="card shadow-sm rounded-4 mt-3 p-3">
+            <h5 class="fw-bold border-bottom pb-2">Park Details</h5>
+            <div id="parkName">please select a park</div>
+            <div id="parkAddress"></div>
+            <div id="parkType"></div>
+            <div id="parkFeatures"></div>
+            <div id="parkDescription"></div>
+            <div id="parkOpeningHours"></div>
+
+            <a class="btn-summary btn-outline-dark px-5 py-2 rounded-4 shadow" id="planVisitBtn" href="summary.html"
+              role="button" style="display: none">Plan Visit</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <div id="footer-container"></div>
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!--included so that the buttons in the filters work-->
+
+  <script src="assets/js/load-navbar.js" defer></script>
+  <script src="assets/js/load-footer.js" defer></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/weather.js"></script>
+
+  <!-- TODO: download and add to assets -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- Eigene Skripte -->
+  <script src="assets/js/init_map.js"></script>
+  <script src="assets/js/map_helper.js"></script>
+  <script src="assets/js/search_parks.js"></script>
+  <script src="assets/js/render_playgrounds.js"></script><!-- MUST before load_playgrounds.js -->
+
+  <script src="assets/js/load_playgrounds.js"></script>
+  <script src="assets/js/load_parks.js"></script>
+  <script src="assets/js/load_cemeteries.js"></script>
+  <script src="assets/js/park_details.js"></script>
+  <script src="assets/js/show_user_location.js"></script>
+
+  <!--safe to local Storage-->
+  <script src="assets/js/safe_park_to_local_storage.js"></script>
+
+  <script>
+    window.addEventListener("load", function () {
+      if (window.map) {
+        getUserLocation(window.map);
+      } else {
+        console.error("map object not found!");
+      }
+    });
+  </script>
+</body>
+
+</html>

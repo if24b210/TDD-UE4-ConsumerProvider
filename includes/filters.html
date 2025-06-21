@@ -1,0 +1,119 @@
+<div id="filters_included" class="card shadow p-3 rounded-4">
+
+    <!-- Search Bar inside Card -->
+    <div class="mb-3">
+      <input type="text" id="searchInput" class="form-control rounded-pill" placeholder="Search your green space..." />
+    </div>
+
+    <h5 class="fw-bold border-bottom pb-2">Filters</h5>
+
+    <!-- Type of green space -->
+    <div class="white-box">
+      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown1">
+        Type of green space ▼
+      </button>
+      
+      <div class="collapse show" id="dropdown1">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="parks">
+          <label class="form-check-label" for="parks">Parks</label>
+        </div>
+      
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="dogs"> <!-- based on !"TYP":"Hundeverbotszone" in: https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:HUNDEZONEOGD&srsName=EPSG:4326&outputFormat=json -->
+          <label class="form-check-label" for="dogs">Dog Park</label> <!-- and based on: "HUNDE_IM_PARK":"Ja" in: https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:PARKINFOOGD&srsName=EPSG:4326&outputFormat=json -->
+        </div>
+      
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="cemeteries"> <!--based on everything in: https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:FRIEDHOFOGD&srsName=EPSG:4326&outputFormat=json -->
+          <label class="form-check-label" for="cemeteries">Cemeteries</label>
+        </div>
+      
+        <!-- Nested collapsible: Playground - based on: https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:SPIELPLATZPUNKTOGD&srsName=EPSG:4326&outputFormat=json -->
+        <button class="btn btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown-playground">
+          Playground ▼
+        </button>  
+        <div class="collapse" id="dropdown-playground">
+          <div class="form-check ms-3 mt-2">
+            <input class="form-check-input" type="checkbox" id="general-playgrounds">
+            <label class="form-check-label" for="general-playgrounds">General
+                Playgrounds</label>
+        </div>
+        <div class="form-check ms-3 mt-2">
+            <input class="form-check-input" type="checkbox" id="themed-playgrounds" disabled>
+            <label class="form-check-label" for="themed-playgrounds">Themed Playgrounds</label>
+        </div>
+        <div class="form-check ms-3 mt-2">
+            <input class="form-check-input" type="checkbox" id="toddler-playgrounds" disabled>
+            <label class="form-check-label" for="toddler-playgrounds">Toddler
+                Playgrounds</label>
+        </div>
+        <div class="form-check ms-3 mt-2">
+            <input class="form-check-input" type="checkbox" id="generational-playgrounds"
+                disabled>
+            <label class="form-check-label" for="generational-playgrounds">Generational
+                Playgrounds</label>
+        </div>
+        <div class="form-check ms-3 mt-2">
+            <input class="form-check-input" type="checkbox" id="ball-playgrounds" disabled>
+            <label class="form-check-label" for="ball-playgrounds">Ball Playgrounds</label>
+        </div>
+        <div class="form-check ms-3 mt-2">
+            <input class="form-check-input" type="checkbox" id="ball-cage-playgrounds" disabled>
+            <label class="form-check-label" for="ball-cage-playgrounds">Ball Cage</label>
+        </div>
+          
+        </div>
+      </div>
+
+    <!-- Essential Features -->
+    <div class="white-box mt-3">
+      <!-- Essential Features -->
+      <div class="mb-2">
+        <button class="btn  text-start" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown2">
+          Essential Features ▼
+        </button>
+        <div class="collapse show" id="dropdown2">
+
+          <div class="form-check"><!--based on:  "KATEGORIE":everything but pissoir in : https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:WCANLAGE2OGD&srsName=EPSG:4326&outputFormat=json-->
+            <input class="form-check-input" type="checkbox" id="restrooms">
+            <label class="form-check-label" for="restrooms">Public restrooms</label>
+          </div>
+
+          <div class="form-check"><!-- based on: "WASSER_IM_PARK": "Ja" in: https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:PARKINFOOGD&srsName=EPSG:4326&outputFormat=json-->
+            <input class="form-check-input" type="checkbox" id="fountains">
+            <label class="form-check-label" for="fountains">Drinking fountains</label>
+          </div>
+
+          <div class="form-check"><!-- based on: "HUNDE_IM_PARK":"Ja" in: https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:PARKINFOOGD&srsName=EPSG:4326&outputFormat=json-->
+                                  <!-- also  if is playground or cemetary-> do not display. Dogs are not allowed there! -->
+            <input class="form-check-input" type="checkbox" id="dogs-allowed">
+            <label class="form-check-label" for="dogs-allowed">Dogs allowed</label>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Accessibility Features -->
+     <!--The only relevant filter I have identified pertains to public restrooms,
+      where each JSON object includes a "KATEGORIE" key that may indicate accessibility (e.g., "KATEGORIE": "barrierefrei"). 
+      
+      While this could potentially serve as a proxy for filtering, 
+      I believe it would be misleading to guarantee a park as wheelchair-accessible based solely on the presence of accessible restroom data.--> 
+    </div>
+
+</div>
+
+<!-- Park Details -->
+<div id="parkDetails" class="card shadow-sm rounded-4 mt-3 p-3" style="display:none;">
+  <h5 class="card-title">Park Details</h5>
+  <div id="parkName">Wähle einen Park aus</div>
+  <div id="parkAddress"></div>
+  <div id="parkType"></div>
+  <div id="parkFeatures"></div>
+  <div id="parkDescription"></div>
+  <div id="parkAddress"></div>
+  <div id="parkOpeningHours"></div>
+  <button class="btn btn-primary w-100 mt-2" id="planVisitBtn">Plan Visit</button>
+</div>
